@@ -1,0 +1,79 @@
+{
+  "name": "someprojectnamehere",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "gulp default && node ./bin/www",
+    "postinstall": "jspm install"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "cookie-session": "^2.0.0-alpha.1",
+    "cors": "^2.7.1",
+    "debug": "~2.2.0",
+    "dotenv": "^2.0.0",
+    "express": "~4.13.1",
+    "express-jwt": "^3.3.0",
+    "helmet": "^1.3.0",
+    "jade": "~1.11.0",
+    "mongoose": "^4.4.13",
+    "morgan": "~1.6.1",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "^5.0.0-beta.7",
+    "serve-favicon": "^2.3.0",
+    "systemjs": "^0.19.26",
+    "zone.js": "^0.6.12"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "bower-main": "^0.2.14",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-concat": "^2.6.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-jspm": "^0.5.10",
+    "gulp-main-bower-files": "^1.5.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-stylus": "^2.4.0",
+    "gulp-typescript": "^2.13.1",
+    "gulp-uglify": "^1.5.3",
+    "gulp-using": "^0.1.0",
+    "jspm": "^0.16.34",
+    "main-bower-files": "^2.13.0",
+    "retyped-express-jwt-tsd-ambient": "0.0.0-0",
+    "run-sequence": "^1.2.1",
+    "tslint": "^3.9.0",
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1"
+  },
+  "jspm": {
+    "directories": {
+      "packages": "vendor/jspm_packages"
+    },
+    "configFile": "jspm.config.js",
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.5.5",
+      "angular-cookies": "npm:angular-cookies@^1.5.6",
+      "angular-jwt": "npm:angular-jwt@^0.0.9",
+      "angular-material": "github:angular/bower-material@^1.0.9",
+      "angular-storage": "npm:angular-storage@^0.0.15",
+      "angular-ui-router": "github:angular-ui/angular-ui-router-bower@^0.3.0",
+      "auth0-angular": "npm:auth0-angular@^4.2.2",
+      "auth0-js": "npm:auth0-js@^7.0.2",
+      "auth0-lock": "npm:auth0-lock@^9.2.1",
+      "babel": "npm:babel-core@^5.8.24",
+      "css": "npm:jspm-loader-css@^1.1.0",
+      "jade": "github:johnsoftek/plugin-jade@^1.1.2",
+      "lock": "npm:lock@^0.1.2",
+      "ng-cookies": "npm:ng-cookies@^1.0.2",
+      "text": "github:systemjs/plugin-text@^0.0.8"
+    },
+    "devDependencies": {
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
