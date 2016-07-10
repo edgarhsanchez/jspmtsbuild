@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "gulp default && node ./bin/www",
-    "postinstall": "jspm install"
+    "postinstall": "npm install tsd jspm gulp -g && jspm install"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
